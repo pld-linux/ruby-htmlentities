@@ -1,4 +1,5 @@
-Summary:	Library for encoding and decoding XML and HTML entities.
+Summary:	Library for encoding and decoding XML and HTML entities
+Summary(pl.UTF-8):	Biblioteka do kodowania i dekodowania elementów XML i HTML
 Name:		ruby-htmlentities
 Version:	4.0.0
 Release:	1
@@ -14,9 +15,14 @@ Requires:	ruby-builder
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTMLEntities is a simple library to facilitate encoding and decoding of
-named (&yacute; and so on) or numerical (&#123; or &#x12a;) entities in HTML
-and XHTML documents.
+HTMLEntities is a simple library to facilitate encoding and decoding
+of named (&yacute; and so on) or numerical (&#123; or &#x12a;)
+entities in HTML and XHTML documents.
+
+%description -l pl.UTF-8
+HTMLEntities to prosta biblioteka ułatwiająca kodowanie i dekodowanie
+nazwanych (&yacute; itp.) lub liczbowych (&#123; lub &#x12a;)
+elementów w dokumentach HTML i XHTML.
 
 %prep
 %setup -q -c
