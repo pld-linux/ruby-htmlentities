@@ -5,11 +5,11 @@ Version:	4.0.0
 Release:	1
 License:	Ruby's
 Group:		Development/Languages
-Source0:	http://rubyforge.org/frs/download.php/18492/htmlentities-4.0.0.gem
+Source0:	http://rubyforge.org/frs/download.php/18492/htmlentities-%{version}.gem
 # Source0-md5:	8490050367c95d63f83049852f7e93a8
 URL:		http://htmlentities.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	setup.rb = 3.3.1
+BuildRequires:	setup.rb >= 3.3.1
 Requires:	ruby-builder
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
