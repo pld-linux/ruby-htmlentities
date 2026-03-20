@@ -62,8 +62,8 @@ Dokumentacji w formacie ri dla %{pkgname}.
 %if %{with doc}
 rdoc --ri --op ri lib
 rdoc --op rdoc lib
-rm -rf ri/created.rid
-rm -rf ri/cache.ri
+rm -r ri/created.rid
+rm -r ri/cache.ri
 %endif
 
 %install
